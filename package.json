@@ -1,0 +1,16 @@
+{
+  "name": "mobius-gif-animation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "canvas-sketch mobius --open --output=output --stream=gif"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "canvas-sketch": "^0.7.3",
+    "three": "^0.116.1"
+  },
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20"
+  }
+}
